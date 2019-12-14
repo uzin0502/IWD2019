@@ -97,10 +97,9 @@
     // 마우스 상호작용
     var mouseover = function(d) {
       tooltip
-        .style("opacity", 1)
+        .style("opacity", 0.5)
       d3.select(this)
-        .style("stroke", "black")
-        .style("opacity", 1)
+        .style("opacity", 0.5)
     }
     var mousemove = function(d) {
       tooltip
