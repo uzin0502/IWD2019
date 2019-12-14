@@ -1,0 +1,17 @@
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    fill: white;
+    background-image: url('https://media.giphy.com/media/vCuiznxbIsMco/giphy.gif');
+
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
